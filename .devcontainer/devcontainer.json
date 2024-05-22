@@ -1,0 +1,34 @@
+// https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+    "name": "Node.js & TypeScript",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+    "features": {},
+    "forwardPorts": [
+        3000
+    ],
+    "postCreateCommand": "node -v",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bradlc.vscode-tailwindcss",
+                "EditorConfig.EditorConfig",
+                "redhat.vscode-yaml",
+                "svelte.svelte-vscode"
+            ],
+            "settings": {
+                "editor.quickSuggestions": {
+                    "strings": "on"
+                },
+                "files.associations": {
+                    "*.css": "tailwindcss"
+                },
+                "[svelte]": {
+                    "editor.defaultFormatter": "svelte.svelte-vscode"
+                },
+                "tailwindCSS.includeLanguages": {
+                    "plaintext": "html"
+                }
+            }
+        }
+    }
+}
