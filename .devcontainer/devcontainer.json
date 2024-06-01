@@ -1,6 +1,6 @@
 // https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-    "name": "Node.js & TypeScript",
+    "name": "h4j4x",
     "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
     "features": {},
     "forwardPorts": [
